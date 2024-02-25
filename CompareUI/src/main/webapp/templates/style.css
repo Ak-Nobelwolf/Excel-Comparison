@@ -1,0 +1,154 @@
+/* Set the background color and font for the entire page */
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+
+/* Center the form on the page and give it a nice border */
+form {
+  margin: auto;
+  width: 30%;
+  padding: 25px 25px 5px 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Style the labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+/* Style the file input elements */
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Hover effect for file input */
+input[type="file"]:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(69, 160, 73);
+}
+
+/* Style the heading */
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+/* Style the button */
+button {
+  background-color: #4caf50;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Active state for button */
+button:active {
+  background-color: #3e8e41;
+  box-shadow: none;
+}
+
+/* Disabled state for button */
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Align text in paragraphs to justify */
+p {
+    text-align: justify;
+}
+
+/* Style for anchor tags */
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for anchor tags */
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Styling for the instructions container */
+.instructions-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add left padding to the ordered list */
+ol {
+    padding-left: 20px;
+}
+
+/* Add bottom margin to list items */
+li {
+    margin-bottom: 10px;
+    text-align:justify;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 425px) {
+  form {
+    width: 80%;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  form {
+    width: 40%;
+  }
+}

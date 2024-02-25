@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UI based tool to comapre two excel files column wise"
+    />
+    <meta name="author" content="Akshay J Tadakod" />
+    <meta
+      name="keywords"
+      content="Excel comparison, Workbook comparison, Spreadsheet comparison, Data validation"
+    />
+    <title>Excel Comparison</title>
+    <link rel="icon" href="images/excel.png" />
+    <link rel="stylesheet" href="templates/style.css" />
+  </head>
+
+  <body>
+    <h1>Excel Comparison</h1>
+    <form
+      id="comparisonForm"
+      action="Compare"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <label for="source">Source File</label>
+      <input type="file" id="source" name="SourceFile" accept=".xlsx, .xls" />
+      <br />
+      <label for="target">Target File</label>
+      <input type="file" id="target" name="TargetFile" accept=".xlsx, .xls" />
+      <br />
+      <label for="config">Property File</label>
+      <input type="file" id="config" name="ConfigFile" accept=".properties" />
+      <br />
+      <button id="compareBtn">COMPARE FILES</button>
+    
+   	  <div id="loader" class="loader"></div>
+    
+      <div class="instructions">
+        <p>For detailed instructions on how to use the Excel Comparison tool, <a href="templates/instructions.html" target="_blank">click here</a>.</p>
+      </div>
+
+    </form>
+    <script src="templates/script.js"></script>
+  </body>
+</html>
