@@ -48,6 +48,14 @@ The Excel Comparison Tool is a web-based application developed to compare two Ex
 3. **Access**:
    - Access the application using the deployed URL in a web browser.
 
+## Frontend Repository
+
+To check out the frontend of the Excel Comparison Tool, visit the [FrontEnd Repository](https://github.com/Ak-Nobelwolf/ExcelCompare-FrontEnd).
+
+## Live Page
+
+You can also access the live page of the frontend at [Excel Comparison Tool](https://ak-nobelwolf.github.io/ExcelCompare-FrontEnd/).
+
 ## Contributions
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to create a pull request or raise an issue in the GitHub repository.
